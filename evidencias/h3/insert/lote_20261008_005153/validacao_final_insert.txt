@@ -1,0 +1,10 @@
+ total_insercoes | primeiro_id | ultimo_id | registros_corretos 
+-----------------+-------------+-----------+--------------------
+           80000 |      200000 |    279999 |              80000
+(1 row)
+
+ historico_indevido 
+--------------------
+                  0
+(1 row)
+

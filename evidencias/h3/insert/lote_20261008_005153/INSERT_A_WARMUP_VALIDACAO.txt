@@ -1,0 +1,3 @@
+modelo=A
+transacoes=800
+contagens=800|0|84427

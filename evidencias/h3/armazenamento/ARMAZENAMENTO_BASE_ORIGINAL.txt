@@ -1,0 +1,12 @@
+     tabela      | dados_bytes | indices_bytes | total_bytes | total_legivel 
+-----------------+-------------+---------------+-------------+---------------
+ parte           |    38641664 |      12304384 |    50995200 | 49 MB
+ parte_controle  |    18898944 |       6938624 |    25878528 | 25 MB
+ parte_historico |    28205056 |       9486336 |    37732352 | 36 MB
+(3 rows)
+
+ tamanho_banco_bytes | tamanho_banco 
+---------------------+---------------
+           189470399 | 181 MB
+(1 row)
+

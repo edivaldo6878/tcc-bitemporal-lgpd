@@ -1,0 +1,25 @@
+========================================================================
+VERIFICACAO H1 - banco x ground truth
+Executado em: 2026-10-03T15:47:52-03:00
+Entidades no gabarito: 10000 | entidades no banco: 10000 (fora do gabarito: 0)
+========================================================================
+TC-H1-01  APROVADO   Numero de versoes por entidade  (0 falhas)
+TC-H1-02  APROVADO   Conteudo (nome) de cada versao  (0 falhas)
+TC-H1-03  APROVADO   Inicio do tempo valido de cada versao  (0 falhas)
+TC-H1-04  APROVADO   Inicio do tempo de transacao de cada versao  (0 falhas)
+TC-H1-05  REPROVADO  Contiguidade do tempo de transacao entre versoes  (6220 falhas de 6220 transicoes)
+      - id=1000: versao termina em 2026-09-09 00:38:23.571324+00:00 e a seguinte comeca em 2026-09-09 00:38:23.571893+00:00
+      - id=1000: versao termina em 2026-09-09 00:38:23.573439+00:00 e a seguinte comeca em 2026-09-09 00:38:23.573511+00:00
+      - id=1002: versao termina em 2026-09-09 00:38:23.576593+00:00 e a seguinte comeca em 2026-09-09 00:38:23.576624+00:00
+      - id=1002: versao termina em 2026-09-09 00:38:23.577348+00:00 e a seguinte comeca em 2026-09-09 00:38:23.577387+00:00
+      - id=1002: versao termina em 2026-09-09 00:38:23.578338+00:00 e a seguinte comeca em 2026-09-09 00:38:23.578363+00:00
+      ... e mais 6215
+
+TC-H1-05 detalhe: 6220 com lacuna, 0 com sobreposicao
+
+Achados informativos (anonimizacao):
+  entidades marcadas como anonimizadas: 204
+  ... sem nenhuma linha de historico (anonimizacao sem efeito): 128
+  ... com nome corrente ainda em claro: 204
+========================================================================
+RESULTADO GERAL: REPROVADO

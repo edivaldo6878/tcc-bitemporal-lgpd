@@ -1,0 +1,11 @@
+data/
+*.log
+.env
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+ground_truth.jsonl
+ground_truth_v2.jsonl
+ground_truth_v3.jsonl
+podman-compose.yml.pre-seguranca.bak
+.tcc_pgpassword

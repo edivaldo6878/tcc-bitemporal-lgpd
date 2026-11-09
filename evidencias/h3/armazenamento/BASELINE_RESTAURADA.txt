@@ -1,0 +1,17 @@
+ modelo_a | modelo_b | historico_b | insercoes_residuais 
+----------+----------+-------------+---------------------
+   100000 |   115182 |       84427 |                   0
+(1 row)
+
+     tabela      | dados_bytes | indices_bytes | total_bytes 
+-----------------+-------------+---------------+-------------
+ parte           |    35192832 |       6086656 |    41328640
+ parte_controle  |    19005440 |       4038656 |    23085056
+ parte_historico |    28311552 |       6184960 |    34537472
+(3 rows)
+
+ banco_bytes 
+-------------
+   173741759
+(1 row)
+

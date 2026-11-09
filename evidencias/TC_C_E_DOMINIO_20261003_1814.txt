@@ -1,0 +1,26 @@
+==================================================================================
+TESTES (c) SOBREPOSICAO E (e) CONCORRENCIA - DOMINIO FINAL
+Executado em: 2026-10-03T18:14:34-03:00 | banco: tcc_teste_dominio
+==================================================================================
+TC-C-01  APROVADO   Insercao sobreposta no mesmo id_parte e rejeitada
+          SQLSTATE=23P01
+TC-C-02  APROVADO   Insercao que sobrepoe dois periodos e rejeitada
+          SQLSTATE=23P01
+TC-C-03  APROVADO   UPDATE que cria sobreposicao e rejeitado
+          SQLSTATE=23P01
+TC-C-04  APROVADO   Tentativas rejeitadas nao deixam historico parcial
+          antes=(2, 0)/(1, 0) depois=(2, 0)/(1, 0)
+TC-C-05  APROVADO   Periodos adjacentes sao aceitos
+          primeiro=OK segundo=OK
+TC-C-06  APROVADO   Mesmo periodo em outra entidade e aceito
+          resultado=OK
+TC-E-01  APROVADO   READ COMMITTED serializa os UPDATEs sem perda de versao
+          bloqueou=True versoes=3 nomes=['Base E1', 'T1', 'T2'] contigua=True sobreposicoes=0
+TC-E-02  APROVADO   REPEATABLE READ detecta conflito e rollback nao deixa versao parcial
+          SQLSTATE=40001 versoes=2 nomes=['Base E2', 'T1-RR'] contigua=True
+TC-E-03  APROVADO   Insercoes concorrentes respeitam commit e rollback
+          commit: bloqueou=True erro=23P01 linhas=['T1']; rollback: bloqueou=True ok=True linhas=['T2-RB']
+TC-E-04  APROVADO   8 sessoes x 150 UPDATEs sem perda de versoes
+          versoes=1201/1201 nomes_distintos=1201/1201 contigua=True inicios_unicos=True sobreposicoes=0 erros=0 threads_vivas=0 duracao=2.26s
+==================================================================================
+RESULTADO GERAL: APROVADO

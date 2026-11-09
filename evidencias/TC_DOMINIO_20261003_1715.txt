@@ -1,0 +1,13 @@
+TC-D-01 APROVADO   parte sem processo rejeitada (23503)
+TC-D-02 APROVADO   tp_pessoa x tp_documento inconsistente rejeitado (23514)
+TC-D-03 APROVADO   metadados preenchidos no INSERT: agente=dba origem=tc_dominio
+TC-D-04 APROVADO   UPDATE arquiva a versao anterior (Rua A) com tempo de transacao contiguo
+TC-D-05 APROVADO   periodo valido sobreposto rejeitado (23P01)
+TC-D-06 APROVADO   mudanca real: dois periodos validos adjacentes na mesma parte
+TC-D-07 APROVADO   INSERT em movimentacao aceito, com agente e origem
+TC-D-08 APROVADO   UPDATE em movimentacao bloqueado (23001)
+TC-D-09 APROVADO   DELETE em movimentacao bloqueado (23001)
+TC-D-10 APROVADO   TRUNCATE em movimentacao bloqueado (23001)
+TC-D-11 APROVADO   nenhum dado pessoal em claro em parte nem em parte_historico apos a anonimizacao
+TC-D-12 APROVADO   anonimizacao registrada no log com fundamento
+TC-D-13 APROVADO   contexto do chamador restaurado apos a anonimizacao

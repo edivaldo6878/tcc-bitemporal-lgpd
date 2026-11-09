@@ -1,0 +1,12 @@
+     tabela      | dados | indices | total | total_bytes 
+-----------------+-------+---------+-------+-------------
+ parte           | 47 MB | 12 MB   | 60 MB |    62439424
+ parte_controle  | 18 MB | 3944 kB | 22 MB |    23085056
+ parte_historico | 27 MB | 6040 kB | 33 MB |    34537472
+(3 rows)
+
+ tamanho_banco | tamanho_banco_bytes 
+---------------+---------------------
+ 186 MB        |           194918079
+(1 row)
+

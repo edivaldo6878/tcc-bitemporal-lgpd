@@ -1,0 +1,61 @@
+BEGIN
+SET
+SET
+SET
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+--- corrente (metadados)
+   id   |     nome     | agente |  origem   | finalidade |    base_legal    | tem_txid 
+--------+--------------+--------+-----------+------------+------------------+----------
+ 999001 | Ana T. Silva | dba    | teste_tcc | cadastro   | art. 7, III LGPD | t
+(1 row)
+
+--- historico antes da anonimizacao
+      nome       | operacao | agente | finalidade | encerrado_por 
+-----------------+----------+--------+------------+---------------
+ Ana Teste       | U        | dba    | cadastro   | dba
+ Ana Teste Silva | U        | dba    | cadastro   | dba
+(2 rows)
+
+ versoes_anonimizadas 
+----------------------
+                    4
+(1 row)
+
+--- depois: corrente
+          nome           |  finalidade  |                    base_legal                     
+-------------------------+--------------+---------------------------------------------------
+ [DADO PESSOAL REMOVIDO] | anonimizacao | art. 18, VI LGPD - eliminacao a pedido do titular
+(1 row)
+
+--- depois: historico
+          nome           | operacao | finalidade | encerrado_por 
+-------------------------+----------+------------+---------------
+ [DADO PESSOAL REMOVIDO] | U        | cadastro   | dba
+ [DADO PESSOAL REMOVIDO] | U        | cadastro   | dba
+ [DADO PESSOAL REMOVIDO] | U        | cadastro   | dba
+(3 rows)
+
+--- nomes em claro remanescentes (esperado 0)
+ em_claro 
+----------
+        0
+(1 row)
+
+--- log
+   id   | executado_por |                    fundamento                     | versoes_historico | versoes_correntes 
+--------+---------------+---------------------------------------------------+-------------------+-------------------
+ 999001 | dba           | art. 18, VI LGPD - eliminacao a pedido do titular |                 3 |                 1
+(1 row)
+
+--- contiguidade (esperado divergentes = 0)
+ transicoes | divergentes 
+------------+-------------
+          3 |           0
+(1 row)
+
+--- erro esperado: fundamento vazio
+ERROR:  anonimizar_entidade: fundamento obrigatorio
+CONTEXT:  PL/pgSQL function anonimizar_entidade(integer,text) line 8 at RAISE
+ROLLBACK

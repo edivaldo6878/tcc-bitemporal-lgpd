@@ -1,0 +1,19 @@
+pgbench (18.4 (Debian 18.4-1.pgdg13+1))
+transaction type: /tmp/h3/bench_insert_a.sql
+scaling factor: 1
+query mode: simple
+number of clients: 8
+number of threads: 4
+maximum number of tries: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+number of failed transactions: 0 (0.000%)
+latency average = 2.627 ms
+initial connection time = 10.734 ms
+tps = 3045.850134 (without initial connection time)
+statement latencies in milliseconds and failures:
+         0.115           0 BEGIN;
+         0.161           0 SELECT set_config('tcc.finalidade', 'benchmark_h3_insert', true);
+         0.157           0 SELECT set_config('tcc.base_legal', 'teste_sintetico_h3', true);
+         0.343           0 INSERT INTO parte_controle (
+         1.811           0 COMMIT;

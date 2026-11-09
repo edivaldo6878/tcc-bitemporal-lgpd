@@ -1,0 +1,12 @@
+     tabela      | registros 
+-----------------+-----------
+ parte           |    195182
+ parte_controle  |    100000
+ parte_historico |     84427
+(3 rows)
+
+ insercoes_experimento | registros_anteriores 
+-----------------------+----------------------
+                 80000 |               115182
+(1 row)
+

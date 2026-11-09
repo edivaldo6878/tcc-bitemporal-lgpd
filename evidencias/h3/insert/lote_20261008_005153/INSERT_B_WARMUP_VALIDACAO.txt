@@ -1,0 +1,3 @@
+modelo=B
+transacoes=800
+contagens=800|800|84427|0

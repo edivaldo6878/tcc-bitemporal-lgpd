@@ -1,0 +1,14 @@
+=== H3 - AMBIENTE EXPERIMENTAL ===
+2026-10-03T19:14:55-03:00
+
+pgbench (PostgreSQL) 18.4 (Debian 18.4-1.pgdg13+1)
+
+server_version=18.4 (Debian 18.4-1.pgdg13+1)
+block_size=8192
+shared_buffers=128MB
+work_mem=4MB
+effective_cache_size=4GB
+max_connections=100
+synchronous_commit=on
+fsync=on
+full_page_writes=on

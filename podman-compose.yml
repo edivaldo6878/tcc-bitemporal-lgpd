@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: docker.io/library/postgres:18.4
+    container_name: tcc_postgres
+    restart: unless-stopped
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: tcc_bitemporal
+      POSTGRES_USER: dba
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Configure a senha no .env}
+    volumes:
+      - ./data:/var/lib/postgresql
+      - ./db-init:/docker-entrypoint-initdb.d

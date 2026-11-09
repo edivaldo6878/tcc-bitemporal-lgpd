@@ -1,0 +1,5 @@
+ processos | parte_corrente | historico | modelo_a | movimentacoes | anonimizacoes 
+-----------+----------------+-----------+----------+---------------+---------------
+     40033 |         115182 |     84427 |   100000 |        299924 |          1980
+(1 row)
+

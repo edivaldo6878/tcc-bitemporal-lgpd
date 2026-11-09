@@ -1,0 +1,24 @@
+==============================================================================
+VERIFICADOR V3 - DOMINIO FINAL
+Banco: tcc_dominio_100k
+Processos: 40033
+Partes no gabarito: 100000
+Versoes analisadas: 199609
+Versoes encerradas: 84427
+Movimentacoes: 299924
+Anonimizadas: 1980
+==============================================================================
+TC-V3-01 APROVADO   Quantidade de processos igual ao gabarito  (0 falhas)
+TC-V3-02 APROVADO   Quantidade de movimentacoes igual ao gabarito  (0 falhas)
+TC-V3-03 APROVADO   Ausencia de sobreposicao bitemporal  (0 falhas)
+TC-V3-04 APROVADO   Numero de versoes por parte  (0 falhas)
+TC-V3-05 APROVADO   Conteudo pessoal de cada versao  (0 falhas)
+TC-V3-06 APROVADO   Dados nao pessoais preservados  (0 falhas)
+TC-V3-07 APROVADO   Tempo valido correto  (0 falhas)
+TC-V3-08 APROVADO   Inicio do tempo de transacao correto  (0 falhas)
+TC-V3-09 APROVADO   Metadados de governanca presentes  (0 falhas)
+TC-V3-10 APROVADO   Contiguidade do tempo de transacao  (0 falhas)
+TC-V3-11 APROVADO   Anonimizacao registrada e fundamentada  (0 falhas)
+TC-V3-12 APROVADO   Modelo A consistente com o estado corrente  (0 falhas)
+==============================================================================
+RESULTADO GERAL: APROVADO

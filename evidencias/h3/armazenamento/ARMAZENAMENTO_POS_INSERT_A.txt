@@ -1,0 +1,17 @@
+ total_modelo_a | novas_insercoes | historico_b 
+----------------+-----------------+-------------
+         180000 |           80000 |       84427
+(1 row)
+
+     tabela      | dados_bytes | indices_bytes | total_bytes 
+-----------------+-------------+---------------+-------------
+ parte           |    35192832 |       6086656 |    41328640
+ parte_controle  |    26304512 |       6709248 |    33054720
+ parte_historico |    28311552 |       6184960 |    34537472
+(3 rows)
+
+ crescimento_modelo_a_bytes | banco_bytes 
+----------------------------+-------------
+                    9969664 |   183744191
+(1 row)
+

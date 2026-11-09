@@ -1,0 +1,10 @@
+         relname         | dados_bytes | indices_bytes | total_bytes | total_legivel 
+-------------------------+-------------+---------------+-------------+---------------
+ movimentacao_processual |    41541632 |      16236544 |    57827328 | 55 MB
+ parte                   |    38641664 |      12304384 |    50995200 | 49 MB
+ parte_historico         |    28205056 |       9486336 |    37732352 | 36 MB
+ parte_controle          |    18898944 |       6938624 |    25878528 | 25 MB
+ processo                |     4800512 |       2932736 |     7766016 | 7584 kB
+ anonimizacao_log        |      286720 |         65536 |      393216 | 384 kB
+(6 rows)
+

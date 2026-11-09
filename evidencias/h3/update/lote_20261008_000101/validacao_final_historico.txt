@@ -1,0 +1,5 @@
+ historico_atual | historico_adicionado | partes_atuais 
+-----------------+----------------------+---------------
+          164427 |                80000 |        115182
+(1 row)
+

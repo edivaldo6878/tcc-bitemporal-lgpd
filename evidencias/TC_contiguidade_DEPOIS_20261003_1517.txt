@@ -1,0 +1,10 @@
+BEGIN
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+ transicoes | divergentes 
+------------+-------------
+          2 |           0
+(1 row)
+
+ROLLBACK

@@ -1,0 +1,17 @@
+========================================================================
+VERIFICACAO v2 - banco x ground truth
+Executado em: 2026-10-03T16:10:29-03:00
+Banco: tcc_exp | entidades no gabarito: 10000 | no banco: 10000 (fora do gabarito: 0) | versoes: 19970 | anonimizadas: 201
+========================================================================
+TC-H1-01  APROVADO   Numero de versoes por entidade  (0 falhas)
+TC-H1-02  APROVADO   Conteudo (nome) de cada versao  (0 falhas)
+TC-H1-03  APROVADO   Tempo valido (inicio e fim) de cada versao  (0 falhas)
+TC-H1-04  APROVADO   Inicio do tempo de transacao de cada versao  (0 falhas)
+TC-H1-05  APROVADO   Contiguidade das versoes no tempo de transacao  (0 falhas de 8484 versoes encerradas)
+TC-H1-06  APROVADO   Sem sobreposicao bitemporal entre versoes  (0 falhas)
+TC-H2-01  APROVADO   Metadados de autoria e origem em todas as versoes  (0 falhas)
+TC-H2-02  APROVADO   Contexto de governanca nao contaminado  (0 falhas)
+TC-H2-03  APROVADO   Anonimizacao completa e registrada no log  (0 falhas)
+TC-M-01   APROVADO   Modelo A consistente com o estado corrente do Modelo B  (0 falhas)
+========================================================================
+RESULTADO GERAL: APROVADO
