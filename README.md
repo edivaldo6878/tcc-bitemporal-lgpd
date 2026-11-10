@@ -71,3 +71,16 @@ antes de qualquer execução.
 Este repositório reúne artefatos de pesquisa
 e evidências selecionadas. A reprodução integral
 em ambiente externo ainda não foi certificada.
+
+## Licenciamento e direitos autorais
+
+Os codigos-fonte e scripts de software de autoria do projeto sao
+disponibilizados sob a licenca MIT, conforme o arquivo `LICENSE`.
+
+Os registros experimentais em `evidencias/`, os relatorios e os
+documentos academicos nao recebem automaticamente essa licenca.
+Permanecem sujeitos aos respectivos direitos autorais e a eventuais
+direitos de terceiros.
+
+O uso dos resultados em trabalhos cientificos deve identificar a
+fonte, a versao consultada e as limitacoes metodologicas documentadas.
