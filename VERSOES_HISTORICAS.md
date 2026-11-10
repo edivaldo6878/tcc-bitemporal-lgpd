@@ -1,5 +1,29 @@
 # Versões históricas e evolução do protótipo
 
+## Escopo do pacote publicado
+
+Este repositorio GitHub disponibiliza uma selecao dos
+artefatos associados a implementacao V3, aos experimentos
+e as evidencias documentadas na monografia.
+
+Os componentes de desenvolvimento anteriores citados
+neste documento permanecem no repositorio local original
+do autor, mas nao integram o pacote publico inicial:
+
+- `gerar_dados_v2.py`
+- `verificador_h1.py`
+- `verificador_v2.py`
+- `db-init/`
+- `scripts/tc_h2_governanca.sql`
+
+Sua citacao documenta a evolucao do trabalho; nao significa
+que seus arquivos estejam disponiveis neste repositorio.
+
+A reproducao dos experimentos deve observar as instrucoes
+de `REPRODUCAO.md`, os requisitos de ambiente e as
+limitacoes tecnicas documentadas.
+
+
 ## Finalidade
 
 Este documento distingue os artefatos utilizados
